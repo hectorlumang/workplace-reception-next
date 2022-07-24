@@ -48,7 +48,7 @@ function settingspage() {
       }, [ip_address])
 
     return (
-        <div class="settings-page">
+        <div class="settings-page ln-51">
                 <Head>
                     <title>Workplace Cafe Reception - Settings</title>
                     <meta name="viewport" content="width=device-width,initial-scale=1"></meta>

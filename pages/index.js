@@ -30,7 +30,7 @@ export default function Home(props) {
         </style>
       </Head>
 
-      <div className="App">
+      <div className="App home-page">
         <div className="setting_ico" onClick={() => router.push('/settings')}>
           <Image src={setting_ico} alt="Setting" />
         </div>
