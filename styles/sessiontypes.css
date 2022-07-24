@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+.sessiontypes {
+    max-width: 900px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.breadcrumbs {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 12pt;
+    color: rgb(55,55,55);
+    padding: 5px;
+}
+
+.breadcrumbs .breadcrumb {
+    display: inline-block;
+    margin: 5px;
+    border-right: 0px solid rgb(55,55,55);
+
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.breadcrumbs .breadcrumb:last-child {
+    border-right: 0px;
+}
+
+.breadcrumbs .breadcrumb.current span,
+.breadcrumbs .breadcrumb.current span i.fa,
+.breadcrumbs .breadcrumb.current a {
+    font-weight: 600;
+    color: #F27A2D;
+}
+
+.breadcrumbs .breadcrumb.current span i.fa.stay-options-link-icon {
+    margin-right: 10px;
+}
+.breadcrumbs .breadcrumb a {
+    color: rgb(55,55,55);
+}
+
+.fa.fa-home.home-link-icon {
+    margin-right: 5px;
+}
+
+.session-type-selection-text,
+.sessiontypes-what-type {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #5C3E3C;
+    font-size: 20pt;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.sessiontypes-container {
+    padding: 10px;
+
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.session-type-block {
+    padding: 10px;
+    padding-top: 5px;
+    border: 0px solid rgb(55,55,55);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin: 10px;
+
+    text-align: center;
+
+    min-width: 280px;
+    min-height: 188px;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.session-type-block:hover {
+    background-color: #5C3E3C;
+    color: white;
+}
+
+.session-type-block:hover .session-type-name {
+    color: white;
+}
+
+.session-type-block:hover .fa.session-type-block-icon {
+    color: rgba(254,254,254,0.3);
+}
+
+@media (max-width: 1066px) {
+    .sessiontypes-container {
+        width: 95vw;
+    }
+    .session-type-block {
+        min-width: 100%;
+        min-height: 188px;
+    }
+}
+
+.session-type-name {
+    font-size: 24pt;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 20pt;
+    max-width: 60px;
+
+    min-height: 60px;
+}
+.session-type-name a {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+.selected-session-type {
+    text-transform: uppercase;
+}
+.session-price {
+    font-size: 14pt;
+    font-weight: 500;
+
+    padding: 10px;
+    padding-top: 15px;
+
+    max-width: 70%;
+    text-align: left;
+    background-color: #F27A2D;
+    color: white;
+    border-radius: 30px;
+
+    position: relative;
+    bottom: -50px;
+    padding-left: 15px;
+    white-space: nowrap;
+
+    min-height: 60px;
+
+    text-align: center;
+}
+
+.session-price.hourly-stay {
+    font-size: 12pt;
+    padding-top: 10px;
+}
+
+.session-price .session-price-2 {
+    font-size: 8pt;
+}
+
+.fa.session-type-block-icon {
+    color: #F27A2D44;
+    font-size: 65pt;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.fa-stack .calendar-main-icon {
+    position: relative;
+    top: -40px;
+    right: -80px;
+}
+
+.fa-stack .calendar-7-icon {
+    font-size: 31pt;
+    position: relative;
+    top: -43px;
+    right: -30px;
+
+}
+
+.fa-stack.meeting-rm-icon {
+    font-size: 40pt;
+}
+
+.fa-stack.meeting-rm-icon .fa-user {
+    display: inline;
+}
+
+.fa-stack.meeting-rm-icon .meeting-rm-clock {
+    position: absolute;
+    top: -7px;
+    right: 22px;
+    font-size: 26pt;
+
+}
+
+.confirmation-page div.main-confirmation-block,
+.settings-page,
+.comp-drinks-page,
+.session-detail-page {
+    max-width: 1022px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.comp-drinks-page i.stay-options-link-icon,
+.session-detail-page i.stay-options-link-icon {
+    margin-right: 10px;
+}
+
+.session-type-input-personal-info-text {
+    font-family: "Poppins";
+    font-size: 16pt;
+    color:#5C3E3C;
+}
+
+div.settings-form,
+.personal-info-form-container {
+    padding-left: 20px;
+}
+
+.session-detail-connect-via-text {
+    text-align: center;
+    padding: 15px;
+}
+
+div.settings-form form input.form-control,
+form.personal-info-form input.form-control {
+    background-color: #EEE;
+    border-radius: 3px;
+    width: 80%;
+}
+
+form.personal-info-form .productivity-card-search-mode {
+    font-family: "Poppins";
+    font-size: 12pt;
+    background-color:white;
+    color: #5C3E3C;
+
+    padding: 10px;
+    text-align: center;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    border: 1px solid #5C3E3C;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+form.personal-info-form .productivity-card-search-mode:hover,
+form.personal-info-form .productivity-card-search-mode.selected {
+    background-color: #5C3E3C;
+    color: white;;
+}
+
+form.personal-info-form .productivity-card-search-mode-options div.col {
+    padding: 0px;
+}
+
+.element-invisible {
+    display: none;
+}
+
+form.personal-info-form .productivity-card-search-mode-details {
+    margin-top: 20px;
+}
+
+form.personal-info-form .session-detail-connect-via-text {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs .breadcrumb.selected-session-type {
+    color:#F27A2D;
+    font-weight: 600;
+}
+
+form.personal-info-form .prod-card-image-container {
+    position: absolute;
+    left: 45vw;
+    width: 50px;
+}
+
+form.personal-info-form input.form-control.prod-card-email-input,
+form.personal-info-form input.form-control.prod-card-no-input {
+    margin-bottom: 15px;
+}
+
+form.personal-info-form div.btn-text.btn-next,
+form.personal-info-form div.btn-text.btn-back {
+    border: 1px solid #F27A2D;
+    border-radius: 40px;
+    padding: 12px 15px;
+    color: #F27A2D;
+    font-size: 20pt;
+    font-weight: 600;
+    text-align: center;
+    margin-right: -10px;
+}
+
+form.personal-info-form div.btn-text.btn-next {
+    background-color: #F27A2D;
+    color: white;
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+.comp-drinks-page .welcome-message {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20pt;
+
+    color:#5C3E3C;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comp-drinks-page .welcome-message span.customer-name {
+    color:#F27A2D;
+}
+
+.comp-drinks-page .welcome-message div.select-drink-message {
+    font-size: 16pt;
+}
+
+.comp-drinks-page .drink-selection-block-container {
+    text-align: center;
+    font-size: 24pt;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.comp-drinks-page .drink-selection-block {
+    max-width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px;
+    padding-top: 25px;
+
+    min-height: 231px;
+
+}
+
+.comp-drinks-page .drink-selection-block i.drink-type-block-icon {
+    font-size: 60pt;
+    color:#F27A2D88;
+}
+
+.comp-drinks-page .drink-selection-block div.drink-selection {
+    margin-top: 30px;
+
+    font-weight: 800;
+
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.15);
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    min-height: 136px;
+
+    cursor: pointer;
+}
+
+.comp-drinks-page .drink-selection-block div.drink-selection-price {
+    font-size: 10pt;
+    text-transform: none;
+
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.comp-drinks-page div.drink-selection-block div.drink-selection.selected {
+    background-color:#5C3E3C;
+    color: white;
+}
+
+div.btn-text.btn-next,
+div.btn-text.btn-back {
+    border: 1px solid #F27A2D;
+    border-radius: 40px;
+    padding: 12px 15px;
+    color: #F27A2D;
+    font-size: 20pt;
+    font-weight: 600;
+    text-align: center;
+    margin-right: -10px;
+}
+
+div.btn-text.btn-next {
+    background-color: #F27A2D;
+    color: white;
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+div.settings-form form input.form-control {
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    font-size: 18pt;
+
+    padding: 15px;
+    border-radius: 5px;
+
+    width: 100%;
+}
+
+div.settings-form button.save-ip-address-btn {
+    position: absolute;
+    right: 15px;
+
+    background-color:#F27A2D;
+    color: white;
+
+    border: 1px solid #F27A2D;
+    border-radius: 40px;
+    padding: 12px 15px;
+    font-size: 20pt;
+    font-weight: 600;
+    text-align: center;
+
+    min-width: 200px;
+
+    margin-right: 0px;
+}
+
+form.settings-form label {
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+form.settings-form div.save-button-col {
+    position: relative;
+}
+
+div.confirmation-page {
+    background-color:#5C3E3C;
+    color: white;
+
+    font-family: Poppins;
+
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+div.main-confirmation-block {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    right: 6%;
+
+    font-size: 30pt;
+    text-align: center;
+}
+
+div.confirmation-page div.confirmation-title {
+    font-size: 24pt;
+}
+
+div.main-confirmation-block i.confirmation-icon {
+    font-size: 120pt;
+    margin-bottom: 20px;
+    color:#F27A2D;
+}
+
+div.main-confirmation-block div.confirmation-message {
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+div.main-confirmation-block div.confirmation-message b {
+    color:#ffd400;
+}
+
+div.main-confirmation-block div.confirmation-message-2 {
+    font-size: 25pt;
+    margin-top: 10px;
+}
+
+div.confirmation-page div.restart-row {
+    position: relative;
+    height: 100vh;
+}
+
+div.confirmation-page div.restart-btn {
+    position: absolute;
+    bottom: 95px;
+    left: 42%;
+    min-width: 220px;
+}

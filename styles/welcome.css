@@ -1,0 +1,220 @@
+.App-logo {
+    padding-top: 20vh;
+    padding-left: 41vw;
+    pointer-events: none;
+}
+
+.circles {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.circles .circle {
+    width: 50%;
+}
+
+.circles .circle.left {
+    text-align: left;
+    padding-top: 30px;
+
+}
+
+.circles .circle.left img {
+    left: -220px !important;
+}
+
+.circles .circle.right {
+    text-align: right;
+    padding-top: 50px;
+}
+.circles .circle.right img {
+    right: -220px !important;
+}
+
+.setting_ico {
+    position: absolute;
+    left: 10%;
+    top: 2%;
+    cursor: pointer;
+}
+
+.setting_ico img {
+    width: 40px !important;
+}
+
+.breadcrumb {
+    display: flex;
+    padding-top: 7vh;
+}
+
+.breadcrumb .node {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.breadcrumb .node label {
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+@media (max-width: 450px) {
+    .breadcrumb .node label {
+        font-size: 12px;
+    }
+}
+
+.node.current label {
+    color: #F27A2D;
+    font-family: 'Poppins';
+    font-family: 500;
+}
+
+.welcome-title {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #5C3E3C;
+    padding: 5% 0 5%;
+
+    text-align: center;
+}
+ 
+.welcome-title p {
+    margin: 0;
+}
+
+.welcome-title .welcome {
+    font-size: 55px;
+}
+
+@media (max-width: 798px) {
+    .welcome-title .welcome {
+        font-size: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .welcome-title .welcome {
+        font-size: 30px;
+    }
+}
+@media (max-width: 450px) {
+    .welcome-title .welcome {
+        font-size: 23px;
+    }
+}
+@media (max-width: 360px) {
+    .welcome-title .welcome {
+        font-size: 20px;
+    }
+}
+
+
+.welcome-title .welcome .app-name {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.welcome-title .sub-welcome {
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    .welcome-title .sub-welcome {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .welcome-title .sub-welcome {
+      font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .welcome-title .sub-welcome {
+        font-size: 15px;
+    }
+}
+
+.home_start {
+    text-align: center;
+
+}
+.home_start .btn.start {
+    border: none;
+    outline:none;
+    background: rgba(0, 0, 0, 0);
+    position: relative;
+}
+.home_start .btn.start:hover {
+    cursor: pointer;
+}
+
+.home_start .btn.start img {
+    width: 195px !important;
+    pointer-events: none;
+}
+
+.home_start .btn.start .btn.title {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -10px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: white;
+    padding: 14px 0 0;
+    pointer-events: none;
+}
+
+.bottoms {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.bottoms .bottom {
+    display: flex;
+    width: 50%;
+}
+
+.bottoms .bottom.left {
+    justify-content: flex-start;
+    text-align: left;
+}
+@media (max-width: 710px) {
+    .bottoms .bottom.left {
+        display: none;
+    }
+}
+
+.bottoms .bottom.left img {
+    left: -480px !important;
+}
+
+.bottoms .bottom.right {
+    justify-content: flex-end;
+    text-align: right;
+}
+.bottoms .bottom.right img {
+    right: -500px !important;
+}
+@media (max-width: 710px) {
+    .bottoms .bottom.right img {
+        right: 20px !important;
+        width: 120vw !important;
+        height: 40vw !important;
+    }
+    .bottoms .bottom.right {
+        width: 100vw;
+    }
+}
