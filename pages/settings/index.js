@@ -50,7 +50,7 @@ function settingspage() {
     return (
         <div class="settings-page ln-51">
                 <Head>
-                    <title>Workplace Cafe Reception - Settings</title>
+                    <title>Workplace Cafe Reception - Settings - Server IP Address</title>
                     <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
                     <meta name="description" content="Workplace Cafe Reception Application" />
                     <link rel="icon" href="/workplace-cafe-logo.ico" />
@@ -59,7 +59,7 @@ function settingspage() {
                 <div class="breadcrumbs">
                     <div class="breadcrumb home-link">
                         <span>
-                            <i class="fa fa-home home-link-icon"></i>
+                            <i class="fa fa-home home-link-icon fa"></i>
                         </span>
                         <Link href="/">Home</Link>
                     </div>
